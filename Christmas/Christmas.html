@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101710">
+<meta name="description" content="Discover the Christmas displays at Rohans Displays.">
+<title>Christmas | Rohans Displays</title>
+<style>
+:root{--bg:#101710;--green:#1b3024;--gold:#e9bd72;--cream:#fff7e9;--muted:#c6c8bb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}
+header{height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 max(24px,calc((100% - 1160px)/2));background:#101710;border-bottom:1px solid #ffffff18}
+.brand{font-weight:900;letter-spacing:2px}.brand span{color:var(--gold)}nav{display:flex;gap:24px;font-size:13px;color:#d7d8ce}nav a:hover{color:var(--gold)}
+.hero{height:min(80vh,780px);min-height:450px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 25%,#426044,#17291d 55%,#101710)}
+.hero>img{width:100%;height:100%;object-fit:cover;display:block}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0b150fdc,#0b150f4d 75%),linear-gradient(0deg,#101710b8,transparent 60%)}
+.hero-copy{position:absolute;z-index:1;left:max(24px,calc((100% - 1120px)/2));bottom:12%;max-width:690px}
+.kicker{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-weight:bold}
+h1{font:clamp(60px,9vw,116px)/.9 Georgia,serif;margin:18px 0;letter-spacing:-4px}h1 em{font-weight:normal;color:var(--gold)}
+.hero-copy p{max-width:550px;color:#f0eee2;font-size:16px;line-height:1.8}
+.button{display:inline-block;margin-top:14px;padding:14px 19px;background:var(--gold);color:#172016;font-size:12px;font-weight:800;border-radius:3px}
+main{width:min(1050px,calc(100% - 40px));margin:auto}.intro{padding:76px 0 45px}.eyebrow{color:var(--gold);font-size:10px;font-weight:bold;letter-spacing:3px;text-transform:uppercase}
+h2{font:clamp(36px,5vw,56px) Georgia,serif;margin:12px 0 18px}.intro p,.feature p{max-width:720px;color:var(--muted);font-size:15px;line-height:1.9}
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center;padding:25px 0 90px}.feature img{width:100%;height:360px;object-fit:cover;border:1px solid #52654b}.feature h2{font-size:40px}
+footer{padding:26px 20px;border-top:1px solid #ffffff15;color:#aeb6a8;font-size:11px;text-align:center}
+@media(max-width:650px){header{height:auto;min-height:68px;padding:16px 20px;align-items:flex-start;gap:15px;flex-direction:column}nav{gap:16px;flex-wrap:wrap}.hero{height:66vh;min-height:430px}.hero-copy{left:22px;right:22px;bottom:9%}h1{letter-spacing:-2px}.hero-copy p{font-size:14px}.feature{grid-template-columns:1fr}.feature img{height:270px}}
+</style>
+</head>
+<body>
+<header><a class="brand" href="../index.html">ROHANS <span>DISPLAYS</span></a><nav><a href="../index.html">Home</a><a href="../Halloween/Halloween.html">Halloween</a><a href="Christmas.html">Christmas</a></nav></header>
+<section class="hero" aria-label="Christmas display feature">
+<div class="hero-copy"><div class="kicker">Rohans Displays · Christmas 2026</div><h1>Christmas <em>is coming.</em></h1><p>The lights, the decorations and the magic of the festive season. Our Christmas display is being prepared — watch this space for the 2026 reveal.</p><a class="button" href="#christmas">Discover the plans</a></div>
+</section>
+<main id="christmas"><section class="intro"><div class="eyebrow">Coming soon · Christmas 2026</div><h2>The countdown to Christmas.</h2><p>We're getting ready for another festive season at Rohans Displays. Come back soon to see the new Christmas display, photographs and festive details.</p></section>
+<section class="feature"><img src="../assets/christmas-2025.jpg" alt="A photograph from the 2025 Rohans Christmas display"><div><div class="eyebrow">Looking back · 2025</div><h2>Last year's display.</h2><p>A look back at the Christmas display from 2025 while we prepare something new for 2026.</p><a class="button" href="../index.html">Back to Rohans Displays</a></div></section></main>
+<footer>© <span id="year"></span> Rohans Displays</footer><script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body></html>
