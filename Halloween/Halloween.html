@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#100d14">
+<meta name="description" content="Explore the Rohans Displays Halloween display.">
+<title>Halloween | Rohans Displays</title>
+<style>
+:root{color-scheme:dark;--bg:#100d14;--panel:#1c1620;--orange:#ff762d;--gold:#ffc17e;--cream:#fff5e9;--muted:#c2b5c1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}
+header{height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 max(24px,calc((100% - 1160px)/2));background:#100d14;border-bottom:1px solid #ffffff18}
+.brand{font-weight:900;letter-spacing:2px}.brand span{color:var(--orange)}nav{display:flex;gap:24px;font-size:13px;color:#d7cbd6}nav a:hover{color:var(--gold)}
+.hero{height:min(78vh,760px);min-height:440px;position:relative;overflow:hidden;background:#211725}
+.hero img{width:100%;height:100%;object-fit:cover;display:block}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#100b13d9 0%,#100b1355 55%,#100b1320 100%),linear-gradient(0deg,#100d14aa,transparent 55%)}
+.hero-copy{position:absolute;z-index:1;left:max(24px,calc((100% - 1120px)/2));bottom:12%;max-width:680px}
+.kicker{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);font-weight:bold}
+h1{font:clamp(58px,9vw,112px)/.92 Georgia,serif;margin:18px 0;color:#fff5e9;letter-spacing:-4px}h1 em{color:var(--orange);font-weight:normal}
+.hero-copy p{max-width:530px;color:#f0e4e9;font-size:16px;line-height:1.8}
+.button{display:inline-block;margin-top:14px;padding:14px 19px;background:var(--orange);color:#1b1014;font-size:12px;font-weight:800;border-radius:3px}
+main{width:min(1050px,calc(100% - 40px));margin:auto}.intro{padding:76px 0 45px}.eyebrow{color:var(--orange);font-size:10px;font-weight:bold;letter-spacing:3px;text-transform:uppercase}
+h2{font:clamp(36px,5vw,56px) Georgia,serif;margin:12px 0 18px}.intro p,.feature p{max-width:720px;color:var(--muted);font-size:15px;line-height:1.9}
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center;padding:25px 0 90px}.feature img{width:100%;height:360px;object-fit:cover;border:1px solid #67432f}.feature h2{font-size:40px}
+footer{padding:26px 20px;border-top:1px solid #ffffff15;color:#9f929f;font-size:11px;text-align:center}
+@media(max-width:650px){header{height:auto;min-height:68px;padding:16px 20px;align-items:flex-start;gap:15px;flex-direction:column}nav{gap:16px;flex-wrap:wrap}.hero{height:66vh;min-height:430px}.hero-copy{left:22px;right:22px;bottom:9%}h1{letter-spacing:-2px}.hero-copy p{font-size:14px}.feature{grid-template-columns:1fr}.feature img{height:270px}}
+</style>
+</head>
+<body>
+<header><a class="brand" href="../index.html">ROHANS <span>DISPLAYS</span></a><nav><a href="../index.html">Home</a><a href="Halloween.html">Halloween</a><a href="../Christmas/Christmas.html">Christmas</a></nav></header>
+<section class="hero" aria-label="Halloween display photograph">
+<img src="Untitled%20design%20(2)%20(2).png" alt="Main Halloween display at Rohans">
+<div class="hero-copy"><div class="kicker">Rohans Displays · 2026</div><h1>Halloween <em>at Rohans.</em></h1><p>Autumn nights, glowing pumpkins and a little spooky atmosphere. Take a closer look at this year's Halloween display.</p><a class="button" href="#display">Explore the display</a></div>
+</section>
+<main id="display"><section class="intro"><div class="eyebrow">Now showing · October 2026</div><h2>A little spooky magic.</h2><p>Welcome to the Halloween display at Rohans. This page is dedicated to the decorations, details and atmosphere of the Halloween season. Check back as the display grows and new photographs are added.</p></section>
+<section class="feature"><img src="2KqDAnpQcHnXIimZL4Ms--0--vMcxJ%20(1).jpg" alt="Pumpkins from the Rohans Halloween display"><div><div class="eyebrow">The 2026 display</div><h2>Made for spooky season.</h2><p>From autumn colours to pumpkin details, explore the Halloween display and enjoy the season.</p><a class="button" href="../index.html">Back to Rohans Displays</a></div></section></main>
+<footer>© <span id="year"></span> Rohans Displays</footer><script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body></html>
